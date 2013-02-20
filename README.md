@@ -47,7 +47,7 @@ const char myPassword[] = "your_password";
 
 Next we can go to [http://graphbutton.herokuapp.com/](http://graphbutton.herokuapp.com/) and log in with Facebook. Once you log in, you'll see a link like
 
-![GraphButton](https://raw.github.com/lifegraph/graphbuttonwifly/master/imgs/graphbutton.png)
+![GraphButton](https://raw.github.com/lifegraph/graphbutton-wifly/master/imgs/graphbutton.png)
 
 You want to copy the part that says '60ce6bdda1e131973c722d0906524b2ed24c44a6' and paste that into `httpclient.ino`
 
