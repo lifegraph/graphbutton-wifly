@@ -1,6 +1,6 @@
 # GraphButtonWiFly, a circuit that posts to the Open Graph using a WiFly Module
 
-This is a tutorial for posting to the open graph using the same backend as the [GraphButton](https://github.com/lifegraph/graphbutton). The only difference in this is that we'll be using a [Sparkfun WiFly Module ($35)](https://www.sparkfun.com/products/10822) instead of the Electric Imp.
+This is a tutorial for posting to the open graph using the same backend as the [GraphButton](https://github.com/lifegraph/graphbutton-imp). The only difference in this is that we'll be using a [Sparkfun WiFly Module ($35)](https://www.sparkfun.com/products/10822) instead of the Electric Imp.
 
 **What you’ll learn:** How to create a circuit that posts an action to your profile on the Open Graph with a WiFly module.
 
