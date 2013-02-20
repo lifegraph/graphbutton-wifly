@@ -5,9 +5,10 @@ This is a tutorial for posting to the open graph using the same backend as the [
 **What you’ll learn:** How to create a circuit that posts an action to your profile on the Open Graph with a WiFly module.
 
 **What you'll need:**
-* An Electric Imp
-* An Electric Imp breakout board, or an Arduino + an Electric Imp Shield
+* [A WiFly Module](https://www.sparkfun.com/products/10822) ($35)
+* [An Arduino](https://www.sparkfun.com/products/11021) ($30)
 * A switch or some wire
+* A resistor (~10k ohms)
 
 ## Setting up an Arduino 
 
