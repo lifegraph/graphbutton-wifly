@@ -1,4 +1,4 @@
-# GraphButtonWiFly, a circuit that posts to the Open Graph using a WiFly Module
+# GraphButton, a circuit that posts to the Open Graph using a WiFly Module
 
 This is a tutorial for posting to the open graph using the same backend as the [GraphButton](https://github.com/lifegraph/graphbutton-imp). The only difference in this is that we'll be using a [Sparkfun WiFly Module ($35)](https://www.sparkfun.com/products/10822) instead of the Electric Imp.
 
@@ -10,7 +10,7 @@ This is a tutorial for posting to the open graph using the same backend as the [
 * A switch or some wire
 * A resistor (~10k ohms)
 
-## Setting up an Arduino 
+## Set up your Arduino 
 
 Make sure you have the Arduino Software installed: http://arduino.cc/en/main/software
 
