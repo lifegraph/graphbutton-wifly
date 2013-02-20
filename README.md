@@ -29,7 +29,7 @@ There are 4 pins that you need to connect from the WiFly module to the Arduino: 
 
 These 4 pins correspond to the following on the WiFly module
 
-![WiFly](https://raw.github.com/lifegraph/graphbuttonwifly/master/imgs/wifly.png)
+![WiFly](https://raw.github.com/lifegraph/graphbutton-wifly/master/imgs/wifly.png)
 
 * Pin 1 - Vcc. **Note**: This must be go into the 3.3v pin
 * Pin 2 - TX. Digital pin 2 on the Arduino.
@@ -61,11 +61,11 @@ wifly.println("Content-type: application/json");
 
 Now when you push down on the button, you should see the following output
 
-![Arduino output](https://raw.github.com/lifegraph/graphbuttonwifly/master/imgs/arduino-output.png)
+![Arduino output](https://raw.github.com/lifegraph/graphbutton-wifly/master/imgs/arduino-output.png)
 
 And if you go to Facebook you should see the following action
 
-![Facebook action](https://raw.github.com/lifegraph/graphbuttonwifly/master/imgs/facebook-action.png)
+![Facebook action](https://raw.github.com/lifegraph/graphbutton-wifly/master/imgs/facebook-action.png)
 
 ## Running your own server
 
