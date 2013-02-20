@@ -72,7 +72,7 @@ And if you go to Facebook you should see the following action
 The source code for the GraphButton server is open source, so you can fork it and start your own. To clone the repository:
 
 ```
-$ git clone https://github.com/lifegraph/graphbutton
+$ git clone https://github.com/lifegraph/graphbutton-imp
 $ heroku create
 $ heroku config:add HOST=<heroku host>
 ```
