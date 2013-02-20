@@ -29,7 +29,7 @@ There are 4 pins that you need to connect from the WiFly module to the Arduino: 
 
 These 4 pins correspond to the following on the WiFly module
 
-![WiFly]()
+![WiFly](https://raw.github.com/jiahuang/graphbuttonwifly/master/imgs/wifly.png)
 
 Pin 1 - Vcc. **Note**: This must be go into the 3.3v pin
 Pin 2 - TX. Digital pin 2 on the Arduino.
@@ -47,7 +47,7 @@ const char myPassword[] = "your_password";
 
 Next we can go to [http://graphbutton.herokuapp.com/](http://graphbutton.herokuapp.com/) and log in with Facebook. Once you log in, you'll see a link like
 
-![GraphButton]()
+![GraphButton](https://raw.github.com/jiahuang/graphbuttonwifly/master/imgs/graphbutton.png)
 
 You want to copy the part that says '60ce6bdda1e131973c722d0906524b2ed24c44a6' and paste that into `httpclient.ino`
 
@@ -61,11 +61,11 @@ wifly.println("Content-type: application/json");
 
 Now when you push down on the button, you should see the following output
 
-![Arduino output]()
+![Arduino output](https://raw.github.com/jiahuang/graphbuttonwifly/master/imgs/arduino-output.png)
 
 And if you go to Facebook you should see the following action
 
-![Facebook action]()
+![Facebook action](https://raw.github.com/jiahuang/graphbuttonwifly/master/imgs/facebook-action.png)
 
 ## Running your own server
 
