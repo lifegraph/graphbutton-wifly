@@ -31,10 +31,10 @@ These 4 pins correspond to the following on the WiFly module
 
 ![WiFly](https://raw.github.com/jiahuang/graphbuttonwifly/master/imgs/wifly.png)
 
-Pin 1 - Vcc. **Note**: This must be go into the 3.3v pin
-Pin 2 - TX. Digital pin 2 on the Arduino.
-Pin 3 - RX. Digital pin 3 on the Arduino.
-Pin 10 - GND.
+* Pin 1 - Vcc. **Note**: This must be go into the 3.3v pin
+* Pin 2 - TX. Digital pin 2 on the Arduino.
+* Pin 3 - RX. Digital pin 3 on the Arduino.
+* Pin 10 - GND.
 
 We'll be using [WiFlyHQ](https://github.com/harlequin-tech/WiFlyHQ) as our library for interfacing with the WiFly module. This allows us to talk to the WiFly over serial.
 
