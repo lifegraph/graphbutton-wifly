@@ -52,11 +52,9 @@ const char myPassword[] = "your_password";
 
 Next we can go to [http://graphbutton.herokuapp.com/](http://graphbutton.herokuapp.com/) and log in with Facebook. Once you log in, you'll see a link like
 
-![GraphButton](https://raw.github.com/lifegraph/graphbutton-wifly/master/imgs/graphbutton.png)
+![GraphButton](http://i.imgur.com/JyhsFCA.png)
 
-You want to copy the part that says '60ce6bdda1e131973c722d0906524b2ed24c44a6' and paste that into `httpclient.ino`
-
-so your code should look like
+You want to copy the path string, i.e. `/action/17383ae...`, and paste that into `httpclient.ino`, so your code should look like:
 
 ```ino
 wifly.println("POST /action/60ce6bdda1e131973c722d0906524b2ed24c44a6 HTTP/1.1");
