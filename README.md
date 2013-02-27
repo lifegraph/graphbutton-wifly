@@ -1,4 +1,6 @@
-# GraphButton, a circuit that posts to the Open Graph using a WiFly Module
+# GraphButton, a circuit that posts to the Open Graph 
+
+This tutorial is written to use **the WiFly Module**.
 
 This is a tutorial for posting to the open graph using the same backend as the [GraphButton](https://github.com/lifegraph/graphbutton-imp). The only difference in this is that we'll be using a [Sparkfun WiFly Module ($35)](https://www.sparkfun.com/products/10822) instead of the Electric Imp.
 
@@ -24,7 +26,7 @@ You'll need to connect a button between digital pin 12 and ground on the Arduino
 
 We'll also add a pull up resistor between pin 12 and Vcc, otherwise the pin might read 0 at random times. The general recommended resistance is around 10k but it'll work with other resistances as well. You just don't want a resistance that is too low or else it'll short between Vcc and Ground.
 
-## Setting up the WiFly
+## Soldering the WiFly (XBee form factor)
 
 There are 4 pins that you need to connect from the WiFly module to the Arduino: Vcc, GND, TX, and RX.
 
@@ -32,10 +34,12 @@ These 4 pins correspond to the following on the WiFly module
 
 ![WiFly](https://raw.github.com/lifegraph/graphbutton-wifly/master/imgs/wifly.png)
 
-* Pin 1 - Vcc. **Note**: This must be go into the 3.3v pin
-* Pin 2 - TX. Digital pin 2 on the Arduino.
-* Pin 3 - RX. Digital pin 3 on the Arduino.
-* Pin 10 - GND.
+* Pin 1 &mdash; Vcc. Connect this to the **3.3v pin** on the Arduino.
+* Pin 2 &mdash; TX. Digital pin 2 on the Arduino.
+* Pin 3 &mdash; RX. Digital pin 3 on the Arduino.
+* Pin 10 &mdash; Connect this to GND.
+
+## Making HTTP Requests
 
 We'll be using [WiFlyHQ](https://github.com/harlequin-tech/WiFlyHQ) as our library for interfacing with the WiFly module. This allows us to talk to the WiFly over serial.
 
@@ -68,7 +72,7 @@ And if you go to Facebook you should see the following action
 
 ![Facebook action](https://raw.github.com/lifegraph/graphbutton-wifly/master/imgs/facebook-action.png)
 
-## Running your own server
+## Running your own server backend
 
 The source code for the GraphButton server is open source, so you can fork it and start your own. To clone the repository:
 
@@ -103,5 +107,6 @@ Click your Press action “get code”
 copy “lifegraphlabs:press“ for the path
 
 ## Want to learn more?
+
 [Lifegraph Labs](http://www.lifegraphlabs.com) has [Tutorials](http://lifegraphlabs.com/how-to) to connect the real world with the digital, [Tools](http://lifegraphlabs.com/tools) to get you started quickly, and [Ideas](http://lifegraphlabs.com/ideas) of awesome things you could build right now. [Go there now!](http://www.lifegraphlabs.com) 
 
