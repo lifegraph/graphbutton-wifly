@@ -101,3 +101,7 @@ Click number, Save and Finish
 
 Click your Press action “get code”
 copy “lifegraphlabs:press“ for the path
+
+## Want to learn more?
+[Lifegraph Labs](http://www.lifegraphlabs.com) has [Tutorials](http://lifegraphlabs.com/how-to) to connect the real world with the digital, [Tools](http://lifegraphlabs.com/tools) to get you started quickly, and [Ideas](http://lifegraphlabs.com/ideas) of awesome things you could build right now. [Go there now!](http://www.lifegraphlabs.com) 
+
