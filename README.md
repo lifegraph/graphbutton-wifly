@@ -84,27 +84,26 @@ $ heroku config:add HOST=<heroku host>
 
 ### Creating a Facebook app
 
-Log into https://developers.facebook.com/apps. Create a new application. "GraphButton Test", "lifegraphlabs" is the namespace
-Copypasta your <heroku host> into the App Domains entry.
-Website with Facebook Login, site URL: http://<heroku host>/
-Save
-Copy app ID and app SECRET. paste to 
+1. Log into https://developers.facebook.com/apps. Create a new application and put in "GraphButton Test" for the name and "lifegraphlabs" as the namespace. Don't select heroku as your host. We'll do that later.
 
-```
-$ heroku config:add FB_KEY=the key
-$ heroku config:add FB_SECRET=the secret
-$ heroku config:add FB_ACTION=the action
-```
+2. Copy and paste your <heroku host> into the App Domains field.
 
-Open Graph on the left. Click Getting Started. “press” a “button”. Probably select Number of units.
-Must be “button” or else the POST payload has to be changed
-Save changes and next
-Define object type: button. Savenext
-Data to Display, click “Press”..
-Click number, Save and Finish
+3. Check "Website with Facebook Login" and put in the site URL for the heroku host you already created as "http://<heroku host>/"
 
-Click your Press action “get code”
-copy “lifegraphlabs:press“ for the path
+4. Save your app
+
+5. The app ID and SECRET are at the top of our Facebook App. Copy app ID and app SECRET. paste to 
+
+    ```
+    $ heroku config:add FB_KEY=the key
+    $ heroku config:add FB_SECRET=the secret
+    $ heroku config:add FB_ACTION=the action
+    ```
+
+6. Click on "Open Graph" in the settings panel on the left. Click Getting Started. 
+
+7. Select “press” as the Action type and “button” as the Object type. Select "Number of units" for the aggregation type. The Object type must be button or else the POST payload has to change in the app code.
+
 
 ## Want to learn more?
 
