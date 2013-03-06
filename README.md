@@ -39,6 +39,8 @@ These 4 pins correspond to the following on the WiFly module
 * Pin 3 &mdash; RX. Digital pin 3 on the Arduino.
 * Pin 10 &mdash; Connect this to GND.
 
+![WiFly all wired up)(http://i.imgur.com/EDxmchO.png)
+
 ## Making HTTP Requests
 
 We'll be using [WiFlyHQ](https://github.com/harlequin-tech/WiFlyHQ) as our library for interfacing with the WiFly module. This allows us to talk to the WiFly over serial.
