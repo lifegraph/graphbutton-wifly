@@ -24,7 +24,7 @@ This will make a light on your Arduino blink and is a super basic test of whethe
 
 You'll need to connect a button between digital pin 12 and ground on the Arduino as well. Pushing down this button will make the Arduino post to Facebook. 
 
-We'll also add a pull up resistor between pin 12 and Vcc, otherwise the pin might read 0 at random times. The general recommended resistance is around 10k but it'll work with other resistances as well. You just don't want a resistance that is too low or else it'll short between Vcc and Ground.
+We'll also add a pull up resistor between pin 12 and +5v, otherwise the pin might read 0 at random times. The general recommended resistance is around 10k but it'll work with other resistances as well. You just don't want a resistance that is too low or else it'll short between Vcc and Ground.
 
 ## Soldering the WiFly (XBee form factor)
 
