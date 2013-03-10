@@ -26,6 +26,8 @@ You'll need to connect a button between digital pin 12 and ground on the Arduino
 
 We'll also add a pull up resistor between pin 12 and +5v, otherwise the pin might read 0 at random times. The general recommended resistance is around 10k but it'll work with other resistances as well. You just don't want a resistance that is too low or else it'll short between Vcc and Ground.
 
+![circuit](https://raw.github.com/lifegraph/graphbutton-wifly/master/imgs/circuit.png)
+
 ## Soldering the WiFly (XBee form factor)
 
 There are 4 pins that you need to connect from the WiFly module to the Arduino: Vcc, GND, TX, and RX.
