@@ -24,22 +24,28 @@ This will make a light on your Arduino blink and is a super basic test of whethe
 
 You'll need to connect a button between digital pin 12 and ground on the Arduino as well. Pushing down this button will make the Arduino post to Facebook. 
 
-We'll also add a pull up resistor between pin 12 and +5v, otherwise the pin might read 0 at random times. The general recommended resistance is around 10k but it'll work with other resistances as well. You just don't want a resistance that is too low or else it'll short between Vcc and Ground.
+We'll also add a pull up resistor between pin 12 and +5v, otherwise the pin might read 0 at random times. The general recommended resistance is around 10k but it'll work with other resistances as well. You just don't want a resistance that is too low or else it'll short between 
+
+
+and Ground.
 
 ![circuit](https://raw.github.com/lifegraph/graphbutton-wifly/master/imgs/circuit.png)
 
 ## Soldering the WiFly (XBee form factor)
 
-There are 4 pins that you need to connect from the WiFly module to the Arduino: Vcc, GND, TX, and RX.
+There are 4 pins that you need to connect from the WiFly module to the Arduino: 3.3v, GND, TX (for transmitting), and RX (for receiving).
 
 These 4 pins correspond to the following on the WiFly module
 
 ![WiFly](https://raw.github.com/lifegraph/graphbutton-wifly/master/imgs/wifly.png)
 
-* Pin 1 &mdash; Vcc. Connect this to the **3.3v pin** on the Arduino.
+* Pin 1 &mdash; 3.3v. Connect this to the **3.3v pin** on the Arduino.
 * Pin 2 &mdash; This is the Transmitter pin for the WiFly. Connect it to Digital pin 2 on the Arduino.
 * Pin 3 &mdash; This is the Receiver pin for the WiFly. Connect it to Digital pin 3 on the Arduino.
 * Pin 10 &mdash; Connect this to GND.
+
+We recommend using female to female header pins because the WiFly is rather small and soldering directly pin to pin can be frustrating. 
+Note that after soldering, if everything is correct, a red light will blink on the WiFly. 
 
 ![WiFly all wired up](http://i.imgur.com/EDxmchO.png)
 
