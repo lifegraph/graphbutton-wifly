@@ -20,6 +20,8 @@ Open up the Arduino IDE. Make sure your Arduino works by going to File -> Exampl
 
 This will make a light on your Arduino blink and is a super basic test of whether everything is working. 
 
+For more questions regarding getting started with Arduino, such as the Arduino IDE, how to use libraries in Arduino, etc. refer to http://arduino.cc/en/Guide/HomePage.
+
 ## Adding the Button
 
 You'll need to connect a button between digital pin 12 and ground on the Arduino as well. Pushing down this button will make the Arduino post to Facebook. 
