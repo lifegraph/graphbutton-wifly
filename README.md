@@ -20,9 +20,6 @@ Open up the Arduino IDE. Make sure your Arduino works by going to File -> Exampl
 
 This will make a light on your Arduino blink and is a super basic test of whether everything is working. 
 
-Next, in preparation for using the WiFly, download WiFly HQ by going to https://github.com/harlequin-tech/WiFlyHQ, clicking on the
-"zip" button, and then extracting the files into your Arduino libraries folder. 
-
 ## Adding the Button
 
 You'll need to connect a button between digital pin 12 and ground on the Arduino as well. Pushing down this button will make the Arduino post to Facebook. 
@@ -56,7 +53,8 @@ Note that after soldering, if everything is correct, a red light will blink on t
 
 We'll be using [WiFlyHQ](https://github.com/harlequin-tech/WiFlyHQ) as our library for interfacing with the WiFly module. This allows us to talk to the WiFly over serial.
 
-In order to setup WiFlyHQ, you'll need to download it to your Arduino libaries. On OSX this is typically in `~/Documents/Arduino/libaries/`. If you don't have a library folder, you'll need to make one. 
+In order to setup WiFlyHQ, you'll need to download it to your Arduino libaries. To do this, go to [WiFlyHQ](https://github.com/harlequin-tech/WiFlyHQ), click on the
+"zip" button to download a zip file of the directory, then extract the files into your Arduino libraries folder. On OSX this is typically in `~/Documents/Arduino/libaries/`. If you don't have a library folder, you'll need to make one. 
 
 ```
 cd ~/Documents/Arduino/libraries;
