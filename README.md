@@ -63,7 +63,7 @@ git clone https://github.com/harlequin-tech/WiFlyHQ;
 
 After you add the library, you'll need to restart the Arduino IDE for it to pick up the library. If you've added it in the right place, you should be able to see the WiFlyHQ library if you go to Sketch -> Import Library.
 
-After you have the library working, you'll need to open up the [httpclient example in this repo](https://github.com/lifegraph/graphbutton-wifly/blob/master/httpclient/httpclient.ino) and open it up with the Arduino IDE. 
+After you have the library working, open up a new sketch in your Arduino environment, and copy the code for the [httpclient example in this repo](https://raw.github.com/lifegraph/graphbutton-wifly/master/httpclient/httpclient.ino).  
 
 In `httpclient.ino`, you'll need to change the SSID (name of your network) and the password to work with your own WiFi network:
 
