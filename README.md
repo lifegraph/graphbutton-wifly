@@ -18,6 +18,8 @@ Completed the [hardware tutorial](https://github.com/lifegraph/hw-tutorial) and 
 
 The Arduino and WiFly shield should already be set up from the [hardware tutorial](https://github.com/lifegraph/hw-tutorial).
 
+For more questions regarding getting started with Arduino, such as the Arduino IDE, how to use libraries in Arduino, etc. refer to http://arduino.cc/en/Guide/HomePage.
+
 ## Adding the Button
 
 You'll need to connect a button between digital pin 12 and ground on the Arduino as well. Pushing down this button will make the Arduino post to Facebook. 
@@ -30,7 +32,7 @@ We'll also add a pull up resistor between pin 12 and +5v, otherwise the pin migh
 
 We'll be using [WiFlyHQ](https://github.com/harlequin-tech/WiFlyHQ) as our library for interfacing with the WiFly module. The setup of the library is covered in the [hardware tutorial](https://github.com/lifegraph/hw-tutorial).
 
-Next we can go to [http://graphbutton.herokuapp.com/](http://graphbutton.herokuapp.com/) and log in with Facebook. Once you log in, you'll see a link like
+Now, head to [http://graphbutton.herokuapp.com/](http://graphbutton.herokuapp.com/) and log in with Facebook. Once you log in, you'll see a link like
 
 ![GraphButton](http://i.imgur.com/JyhsFCA.png)
 
