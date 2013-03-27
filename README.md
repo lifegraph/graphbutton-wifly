@@ -2,10 +2,6 @@
 
 a circuit that posts to the Open Graph 
 
-## Prerequisites
-
-Completed the [hardware tutorial](https://github.com/lifegraph/hw-tutorial) and have a set up Arduino that can talk to the internet. 
-
 **What you’ll learn:** How to create a circuit that posts an action to your profile on the Open Graph with a WiFly module.
 
 **What you'll need:**
@@ -13,6 +9,10 @@ Completed the [hardware tutorial](https://github.com/lifegraph/hw-tutorial) and 
 * [An Arduino](https://www.sparkfun.com/products/11021) ($30)
 * A switch or some wire
 * A resistor (~10k ohms)
+
+## Prerequisites
+
+Completed the [hardware tutorial](https://github.com/lifegraph/hw-tutorial) and have a set up Arduino that can talk to the internet. 
 
 ## Set up your Arduino & WiFly module
 
@@ -44,7 +44,14 @@ wifly.println("Host: graphbutton.herokuapp.com:80");
 wifly.println("Content-type: application/json");
 ```
 
-Now when you push down on the button, you should see the following output
+You'll also need to update your wifi network name and password 
+
+```ino
+const char mySSID[] = "your_ssid";
+const char myPassword[] = "your_password";
+```
+
+Save this and load it up on the Arduino. Now when you push down on the button, you should see the following output
 
 ![Arduino output](https://raw.github.com/lifegraph/graphbutton-wifly/master/imgs/arduino-output.png)
 
