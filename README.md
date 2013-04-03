@@ -1,6 +1,8 @@
 # GraphButton
 
-a circuit that posts to the Open Graph 
+A circuit that posts to the Open Graph 
+
+![Graphbutton Tutorial](http://i.imgur.com/ItsjKdY.png)
 
 **What you’ll learn:** How to create a circuit that posts an action to your profile on the Open Graph with a WiFly module.
 
