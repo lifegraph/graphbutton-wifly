@@ -55,10 +55,26 @@ const char mySSID[] = "your_ssid";
 const char myPassword[] = "your_password";
 ```
 
-We'll also need an authentication token from Facebook in order to get the right notification information. For a temporary access token, follow these steps:
+## Authentication with Facebook
 
-1. Go to the Graph API Explorer: [https://developers.facebook.com/tools/explorer](https://developers.facebook.com/tools/explorer)
-2. request a token with "manage_notifications" and "publish_stream" permissions.
+We'll also need an authentication token from Facebook in order to get the right notification information. For a temporary access token, follow the 1 hour auth instructions. There's also a Facebook proxy at [lifegraphconnect.com](http://www.lifegraphconnect.com) that will allow you to have 2 month tokens.
+
+### 1 hour authentication
+
+1. Go to the Graph API Explorer: [https://developers.facebook.com/tools/explorer](https://developers.facebook.com/tools/explorer) and request a token.
+![get token](https://raw.github.com/lifegraph/notificationlight/master/imgs/get_token.png)
+2. ask for "manage_notifications" permissions.
+3. copy that auth token
+4. These tokens only work for 1 hour so they should only be used for testing.
+
+### 2 month authentication
+
+1. Go to [lifegraphconnect.com](http://www.lifegraphconnect.com) and log in
+2. Find the Graph Button tutorial and allow access to it. The app needs your permission to post on Facebook in order to work.
+3. Click on the "View Token" button to view your auth token
+4. Copy the auth token
+
+## Setting up your auth token
 
 After you get your access token, you'll need to stick it in the `graphbutton.ino` as well:
 
@@ -66,8 +82,7 @@ After you get your access token, you'll need to stick it in the `graphbutton.ino
 const char access_token[] = "...";
 ```
 
-However, these tokens expire every hour. In order to get a longer lasting token you'll need to make your own Facebook application and get an auth token from there.
-
+Save the code and then load it up onto an Arduino.
 ## Further examples
 
 * [Notification light](https://github.com/lifegraph/notificationlight) - a light that lights up when you have a new facebook notification
