@@ -2,7 +2,7 @@
 
 A circuit that posts to the Open Graph 
 
-![Graphbutton Tutorial](http://i.imgur.com/ItsjKdY.png)
+[![Graphbutton Tutorial](http://i.imgur.com/ItsjKdY.png)](http://www.lifegraphlabs.com/how-to)
 
 **What you’ll learn:** How to create a circuit that posts an action to your profile on the Open Graph with a WiFly module.
 
